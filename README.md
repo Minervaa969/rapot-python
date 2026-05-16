@@ -12,6 +12,7 @@ Mini project sistem rapot sederhana menggunakan Python CLI.
 - Ranking/Leaderboard
 - Rata-rata nilai siswa
 - Hapus data siswa
+- penyimpanan JSON
 
 ## Teknologi
 - Python
