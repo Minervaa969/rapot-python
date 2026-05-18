@@ -63,10 +63,11 @@ elif role == "siswa":
         print("1. Daftar Nilai")
         print("2. Cari Siswa")
         print("3. Rata-rata Nilai Siswa")
-        print("4. Daftar Siswa Lulus")
-        print("5. Daftar Siswa Tidak Lulus")
-        print("6. Keluar")
-        pilih = input("\nPilih (1-6) : ")
+        print("4. Leaderboard")
+        print("5. Daftar Siswa Lulus")
+        print("6. Daftar Siswa Tidak Lulus")
+        print("7. Keluar")
+        pilih = input("\nPilih (1-7) : ")
 
         if pilih == "1":
             menu_tampil(data_siswa)
@@ -78,14 +79,17 @@ elif role == "siswa":
             menu_rata(data_siswa)
 
         elif pilih == "4":
+            menu_rank(data_siswa)
+
+        elif pilih == "5":
             print("===== DAFTAR SISWA LULUS =====")
             menu_filter(data_siswa)
 
-        elif pilih == "5":
+        elif pilih == "6":
             print("===== DAFTAR SISWA TIDAK LULUS =====")
             menu_filter(data_siswa, status="TIDAK LULUS")
 
-        elif pilih == "6":
+        elif pilih == "7":
             print("ANDA TELAH KELUAR DARI SISTEM")
             break
 
