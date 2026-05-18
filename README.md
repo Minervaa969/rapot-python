@@ -3,6 +3,7 @@
 Mini project sistem rapot sederhana menggunakan Python CLI.
 
 ## Fitur
+- Login Guru/Siswa
 - Input data siswa
 - Daftar nilai
 - Cari siswa

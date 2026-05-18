@@ -13,7 +13,7 @@
     },
     {
         "nama": "Dude",
-        "nilai": 87
+        "nilai": 88
     },
     {
         "nama": "Nandi",
@@ -42,5 +42,17 @@
     {
         "nama": "Lisa",
         "nilai": 98
+    },
+    {
+        "nama": "Gigi",
+        "nilai": 65
+    },
+    {
+        "nama": "Gussy",
+        "nilai": 66
+    },
+    {
+        "nama": "Adus",
+        "nilai": 78
     }
 ]
